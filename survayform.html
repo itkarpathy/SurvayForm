@@ -1,0 +1,79 @@
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Allura|Jacques+Francois+Shadow|Kumar+One+Outline|Lobster|Tangerine" rel="stylesheet">
+
+<head>
+
+  <div class="head">
+<div id="title">Survey Form</div>
+    <p id="discreption"><b>Please let me know how could  I  be better</b></p></div>
+ </head> 
+  
+<body>
+  
+ <fieldset>
+   <legend>Personal information:</legend>
+<div class="row">
+<form id="survey-form" action="/action_page.php">
+<label id="name-label">  Name:     <input type="name" name="name" placeholder="Enter your name"required><br><br>
+<label id="email-label"> Email:    <input type="email" name="email" placeholder="Enter your email" required><br><br>
+<label id="number-label">Age:      <input id="number" type="number" name="quantity" min="18" max="70" placeholder="Age" required><br><br>
+  
+  
+  <div class="row">
+    <p>Where did you find my application?</p>
+  
+  
+  <select id="dropdown" name="dropdown">
+    <option value="indeed">indeed</option>
+    <option value="totaljob">totaljob</option>
+    <option value="LinkdIn" selected>LinkdIn</option>
+    <option value="CW Jobs">CW Jobs</option>
+    <option value="Glassdoor">Glassdoor</option>
+    <option value="Others">Others</option>
+    </select></div>
+  <br>
+  
+  <div class="row">
+  <label id="paragraph" for="would" >Would you recommend my application to any clients?</label>
+  <br>
+    
+  
+  <div id="radio-button" class="row">
+  <label for="absolutly"</label><br>
+  <input type="radio" name="radio-buttons" value="absolutly">Absolutly
+  <label for="may"</label>
+    <input type="radio" name="radio-buttons" value="may">   Maybe
+  <label for="not"</label>
+  <input type="radio" name="radio-buttons" value="not"> Not sure<br><br>
+      </div>
+    </div>
+  </div>
+    
+  
+      
+      <div class="row">
+          <h4>Your message:</h4></div>
+        
+     
+        <textarea id="subject" name="subject" placeholder="your comment here..." style="height:200px; width:300px"></textarea>
+      </div><br>
+      
+  <label for="adult">
+    <input type="checkbox" name="adult" value="1"> Are you over 18 age
+  </label>
+      
+    <label for="under">
+    <input type="checkbox" name="under" value="2"> Under 18
+  </label><br><br>
+   
+  <div class="row">
+    <input id="submit" type="submit" value="Submit"></div><br>
+      
+  
+      </form>
+  </fieldset>
+  
+ </body>
+ </html>
